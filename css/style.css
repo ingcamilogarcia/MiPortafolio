@@ -1,0 +1,420 @@
+:root{
+    
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1;
+    height: 1000px;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+/*Sección Menu*/
+section.menu{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.menu__header{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--cor-de-link);
+}
+
+.menu nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    .menu__list {
+        display: flex;
+        justify-content: space-around;
+        gap: 1rem;
+        }
+  
+/*Sección Title*/
+section.title{
+    display: flex;
+}
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    }
+
+.title__network{
+    display: flex;
+    gap: 15rem;
+}
+
+
+/*Sección About*/
+
+section.about{
+    display: flex;
+    background-color: rgb(132, 171, 243);
+
+}
+
+.section.skills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+    
+.skills__title {
+        text-align: center;
+        margin-bottom: 50px;
+}
+    
+.skills__line {
+        display: flex;
+        gap: 70px;
+        justify-content: center;
+}
+    
+.skills__box {
+        background-color: white;
+        width: 176px;
+        height: 174px;
+        position: relative;
+}
+    
+.skills__box ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        
+}
+
+section.hobbies{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hobbies__title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.hobbies__line{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+.hobbies__box{
+    background-color: white;
+    width: 176px;
+    height: 174px;
+    position: relative;
+}
+.hobbies__box ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+
+/* Experiencia Académica*/
+
+section.academic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(182, 192, 192);
+    margin-top: 100px;
+    height: 450px;
+    }
+
+.academic__title{
+    text-align: center;
+    margin-bottom: 50px;
+
+} 
+.academic__courses{
+    display: flex;
+    gap: 180px;
+    
+}
+.academic__courses__box{
+    background-color: white;
+    width: 350px;
+    height: 250px;
+    position: relative; 
+
+}
+
+
+.academic__courses__box ul{
+    position: absolute;  
+    top: 30px;
+    left: 40px;
+
+}
+
+.academic__courses__box ul li{
+     align-items: center;
+    
+}
+
+.academic__courses__item__title{
+   margin-top: 80px;
+   margin-left: -80px;
+}
+  
+.academic__courses__item__subtitle{
+    margin-top: -20px;
+    margin-left: -80px;
+ }
+
+
+
+
+/* experiencia*/
+
+section.experience{
+margin-top: 50px;
+margin-left: 50px;
+
+}
+
+.experience__section__title{
+    margin-top: 30px;
+    text-align: center;
+}
+.experiencie__box{
+margin-top: 50px;
+margin-left: 50px;
+}
+.experience__info{
+    width: 300px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+.experience__info-container{
+    width: 300px;
+    height: 300px;
+    margin-left: 800px;
+    margin-top: -300px;
+}
+
+
+
+
+/*Contacto*/
+
+section.formcontato{
+    display: flex;
+    background-color: rgb(16, 163, 163);
+    width: 100%;
+    height: 500px
+    
+}
+
+.formcontato__contacto{
+    display: flex;
+
+    width: 838px;
+    height: 400px;
+    margin-left: 100px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 50px;
+    background-color: blue;
+}
+
+.formcontato--esquerda{
+    margin-left: 100px;
+    width: 600px;
+    height: 600px;
+}
+
+.formcontato__text{
+    /*width: 440px;*/
+    margin-left: 50px;
+    background-color: #d3c1c1;
+
+}
+
+.formcontato__title{
+margin-top: 0px;
+}
+.formcontato__img{
+    display: flex;
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;
+}
+.formcontato__form{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 1000px;
+}
+.formcontato__input{
+    width: 950px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius: 1.5px;
+    border-style: none;
+    outline: none;
+}
+.formcontato__textarea{
+    width: 950px;
+    height: 90px;
+    margin-bottom: 5px;
+    border-style: none;
+}
+.formcontato__botao{
+    padding: 10px;
+    width: 120px;
+    height: fit-content;
+    border-color: aqua;
+    border-width: 1px;
+    background-color: aqua;
+    border-style: solid;
+    cursor: pointer;
+    
+}
+
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
+
+
+.container-all{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.container-txt{
+    width: 100%;
+    margin: 50px;
+}
+
+.text{
+    font-size: medium ;
+}
+.title{
+    font-size: smaller;
+}
+
+.experience__botao--demo{
+    padding: 10px;
+    width: 80px;
+    height: fit-content;
+    border-color: aqua;
+    border-width: 1px;
+    background-color: aqua;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.experiencia__botao--repo{
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    border-color: blue;
+    border-width: 1px;
+    background-color: transparent;
+    border-style: solid;
+    cursor: pointer;
+}
+/*footeer*/
+
+.section.footer{
+   
+    /* background-color: rgb(95, 121, 121);
+     width: 100%;
+     height: 140px;
+    padding: 0px;*/
+}
+   
+ 
+.footer__rodape{
+ background-color: black;
+ height: 100px;
+ color: white;
+ text-align: center;
+ margin-top: 1px;
+ padding: 10px;
+ bottom: 0;
+
+    
+ }
+
+ 
